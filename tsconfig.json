@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "noEmit": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES5",
+
+    "strict": true,
+
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "configs/*": ["src/configs/*"],
+      "lib/*": ["src/lib/*"],
+      "pages/*": ["src/pages/*"]
+    },
+
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "test/**/*", "**/*.d.ts"],
+  "exclude": [".next", "node_modules", "out"]
+}
