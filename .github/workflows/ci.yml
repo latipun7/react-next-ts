@@ -14,8 +14,6 @@ jobs:
   test_on_node:
     name: Test Build ⚙🛠
 
-    env:
-
     strategy:
       matrix:
         os: [ubuntu-latest]
