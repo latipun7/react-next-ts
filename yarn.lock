@@ -1447,12 +1447,21 @@
     "@chakra-ui/form-control" "1.2.3"
     "@chakra-ui/utils" "1.4.0"
 
-"@chakra-ui/theme-tools@1.1.1", "@chakra-ui/theme-tools@^1.1.1":
+"@chakra-ui/theme-tools@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-1.1.1.tgz#c5e2fda87fb9602f637ea8360e4084503faa4f2c"
   integrity sha512-ECW8IF0DxMxQgwgn4SPKPbHXhp1fnz50WtInNTvyXHvFZSst0ANn8k+WRAMb9qXolzuZw0sFjhd8U59rtIIpwA==
   dependencies:
     "@chakra-ui/utils" "1.4.0"
+    "@types/tinycolor2" "1.4.2"
+    tinycolor2 "1.4.2"
+
+"@chakra-ui/theme-tools@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-1.1.4.tgz#e35c14ce4f768166771cf50302f0270b162bb033"
+  integrity sha512-TKOYwJh90zkZSn5wKlA3nxSSS2GR3DTPHEk/6w1W+6bfqCD2Mdsa9FEKiwiBgxk8sg2BwiAcqiBRH9rkEYtPoA==
+  dependencies:
+    "@chakra-ui/utils" "1.5.2"
     "@types/tinycolor2" "1.4.2"
     tinycolor2 "1.4.2"
 
@@ -1503,6 +1512,15 @@
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     "@types/object-assign" "4.0.30"
+    css-box-model "1.2.1"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.2.tgz#48bcbaf4856bd9c1c877b69c7edc7cb767454dc9"
+  integrity sha512-oGBIx93b4bDHm6fpRZp6QQ5hJQOElVi2yI1/ptlSiCCSOKfyuqh8fu+PYMsinWXp44kmTQ4gfEhuRIY4Z/vhbg==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
     lodash.mergewith "4.6.2"
 
@@ -2063,10 +2081,10 @@
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
-"@testing-library/jest-dom@^5.11.9":
-  version "5.11.9"
-  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.9.tgz#e6b3cd687021f89f261bd53cbe367041fbd3e975"
-  integrity sha512-Mn2gnA9d1wStlAIT2NU8J15LNob0YFBVjs2aEQ3j8rsfRQo+lAs7/ui1i2TGaJjapLmuNPLTsrm+nPjmZDwpcQ==
+"@testing-library/jest-dom@^5.11.10":
+  version "5.11.10"
+  resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.10.tgz#1cd90715023e1627f5ed26ab3b38e6f22d77046c"
+  integrity sha512-FuKiq5xuk44Fqm0000Z9w0hjOdwZRNzgx7xGGxQYepWFZy+OYUMOT/wPI4nLYXCaVltNVpU1W/qmD88wLWDsqQ==
   dependencies:
     "@babel/runtime" "^7.9.2"
     "@types/testing-library__jest-dom" "^5.9.1"
